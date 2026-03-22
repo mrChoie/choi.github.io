@@ -1,5 +1,5 @@
 body {
-    background-image: url("/public/img/pattern_bg.jpg");
+    background-image: url("./public/img/pattern_bg.jpg");
     background-size: 300px;
 }
 
@@ -13,10 +13,18 @@ body {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 
+    
+}
+
+.index-home {
     min-height: 300vh;
 }
 
-.place-holdder {
+.smcassist {
+    min-height: 200vh;
+}
+
+.place-holder {
     height: 200px;
     width: 200px;
     border-radius: 23px 23px 23px 23px;
