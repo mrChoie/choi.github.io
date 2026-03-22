@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/pattern_bg.png");
+    background-image: url(".../pubimg/pattern_bg.png");
     background-size: 300px;
 }
 
@@ -31,7 +31,7 @@ body {
     
 }
 
-.place-holdder:hover{
+.place-holder:hover{
     margin-bottom: 30px;
     rotate: 6deg;
     scale: 1.11;
