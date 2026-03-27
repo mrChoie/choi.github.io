@@ -32,13 +32,14 @@ body {
 }
 
 .place-holder:hover{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     rotate: 6deg;
     scale: 1.11;
     transition: 500ms;
-    box-shadow: 0px 18px 37px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 18px 37px -8px rgba(0, 0, 0, 0.74);
 
     .project-title {
+        margin-top: 30px;
         font-size: 30px;
         font-weight: bold;
     }
@@ -48,4 +49,38 @@ body {
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
+}
+
+.carousel-caption {
+    background: rgb(34, 34, 34);
+    backdrop-filter: blur(10px);
+    /* margin-top: 500px; */
+}
+
+.smc-carousel .carousel-item {
+    padding: 0 3.5rem 3.5rem;
+}
+
+.carousel-image-frame {
+    width: min(100%, 900px);
+    height: clamp(260px, 45vw, 520px);
+    margin: auto;
+}
+
+.body-image-frame {
+    width: min(100%, 900px);
+    height: clamp(260px, 45vw, 520px);
+    margin: auto;
+}
+
+.carousel-project-image {
+    object-fit: contain;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0px 18px 37px -8px rgba(0, 0, 0, 0.68); */
+}
+
+@media (max-width: 767.98px) {
+    .smc-carousel .carousel-item {
+        padding: 0 2.25rem 1rem;
+    }
 }
