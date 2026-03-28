@@ -84,3 +84,7 @@ body {
         padding: 0 2.25rem 1rem;
     }
 }
+
+.socials-link:hover {
+    scale: 1.2;
+}
