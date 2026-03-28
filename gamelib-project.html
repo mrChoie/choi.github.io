@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choi's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./public/img/mrchoi.png" />
+    <link
+      href="./public/bootstrap-5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="./public/css/stylesheet.css" />
+  </head>
+  <body>
+    <div class="container" style="margin-top: 15px; margin-bottom: 20px">
+      <div class="d-flex">
+        <a href="./index.html" style="text-decoration: none; color: white">
+          <div class="top-0 start-0 ms-0 ps-0 d-flex flex-row">
+            <i style="font-size: 26px;" class="fa-solid fa-circle-chevron-left text-white"></i>
+            <p style="padding-left: 10px;">
+              Go Back
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="contents">
+        <div class="container">
+          <div class="row mt-4 mb-4">
+            <div class="col text-center">
+              <h1>Choi's GameLib</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 d-flex flex-column align-items-center text-center m-auto">
+              <p>The <strong>Choi's GameLib</strong>
+                is a React web app project developed to initially test out React frameworks.
+                 The web app's concept is to have a catalogue of released video games sourced from the 
+                 <strong>Video_Games.csv</strong> file.
+              </p>
+              <p>
+                This project is an on-going development for me to explore React frameworks. Information on this page may be updated from time to time.
+              </p>
+            </div>
+          </div>
+          <hr>
+          <!-- <div class="row mb-4 mt-1">
+            <div class="col-1 pe-5 align-self-center">
+              <i style="font-size: 40px; margin-left: -30px;" class="fa-solid fa-chevron-left float-start"></i>
+            </div>
+            <div class="col p-0">
+              <div class="">
+                <img class="img-fluid rounded-3 shadow" src="./public/img/smc-webassist-homepage.png" alt="">
+              </div>
+            </div>
+            <div class="col-1 ps-5 align-self-center">
+              <i style="font-size: 40px; margin-right: -30px;" class="fa-solid fa-chevron-right float-end"></i>
+            </div>
+          </div> -->
+          <div class="row">
+            <div class="col-sm d-flex flex-column align-items-center">
+              <h4 style="" class="">Key Features</h2>
+              <ul>
+                <li>Single Page Application</li>
+                <li>CSV-powered library</li>
+                <li>Quick search</li>
+                <li>Paginated browsing</li>
+                <li>Catalogue Filtering</li>
+              </ul>
+              <h4 style="" class="">Planned Features</h2>
+              <ul>
+                <li>React Routing</li>
+                <li>User Management</li>
+                <li>User Uploads</li>
+                <li>Game Details</li>
+              </ul>
+            </div>
+            <div class="col-sm d-flex flex-column align-items-center">
+              <h4 style="" class="">Tech Stack</h2>
+              <ul>
+                <li>Node.js (Runtime)</li>
+                <li>React Framework</li>
+                <li>TypeScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Git (version control)</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col text-center">
+              <p class="display-6">Media</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col p-0">
+              <div class="container m-0 p-0">
+                <div id="carouselExampleCaptions" class="carousel slide smc-carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="carousel-image-frame">
+                        <img src="./public/img/gamelib-landingpage.png" class="d-block w-100 h-100 rounded-3 carousel-project-image" alt="SMC Web Assist homepage">
+                      </div>
+                      <div class="carousel-caption p-0 pt-2 rounded-3 d-none d-md-block">
+                        <h5>Homepage</h5>
+                        <p>A catalogue of games in paginated form with dynamic filters and a quick search bar</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-secondary shadow rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-secondary shadow rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="body-image-frame">
+                <img src="./public/img/page-nav.gif" class="d-block w-100 h-100 rounded-3 carousel-project-image" alt="GameLib Page navigation">
+              </div>
+              <div class="text-center">
+                <h5>Single Page Application</h5>
+                <p>The server only serves a single page html, and only the contents inside are dynamically changed without reloading the page.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col">
+              <div class="body-image-frame">
+                <img src="./public/img/filter.gif" class="d-block w-100 h-100 rounded-3 carousel-project-image" alt="GameLib Filter feature">
+              </div>
+              <div class="text-center">
+                <h5>Filter Feature</h5>
+                <p>
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col text-center">
+              <P>Check out the repository of this project at <i class="fa-brands fa-github" style="color: white;"></i>GitHub: <a href="https://github.com/mrChoie/react-app.git">github.com/mrChoie/react-app.git</a></P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center text-light pb-4">© 2026 mrChoi</div>
+
+    <script src="./public/js/confetti.browser.js"></script>
+    <script src="https://kit.fontawesome.com/67f996be23.js" crossorigin="anonymous"></script>
+    <script
+      src="./public/bootstrap-5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./public/js/script.js"></script>
+  </body>
+</html>
