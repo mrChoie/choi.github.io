@@ -1,6 +1,6 @@
 body {
     background-image: url("../img/pattern_bg.png");
-    background-size: 300px;
+    background-size: 280px;
 }
 
 .contents {
@@ -17,7 +17,7 @@ body {
 }
 
 .index-home {
-    min-height: 300vh;
+    /* min-height: 150vh; */
 }
 
 .smcassist {
